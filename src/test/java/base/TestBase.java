@@ -19,6 +19,7 @@ public class TestBase {
 		// TODO Auto-generated method stub
 		prop = new Properties();
 		String path = "src//test//resources//configFiles/config.properties";
+		System.out.println("Hi");
 		FileInputStream fin;
 		try {
 			fin = new FileInputStream(path);
